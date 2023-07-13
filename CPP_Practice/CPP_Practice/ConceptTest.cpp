@@ -107,4 +107,6 @@ struct IsSemiRegular :
 template<typename T>
 concept SemiRegular = IsSemiRegular<T>::value;
 
-
+// 정규 형식
+template<typename T>
+concept Regular = Equal<T> && SemiRegular<T>;
