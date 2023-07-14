@@ -52,3 +52,13 @@ export namespace math
 	int add(int fir, int sec);
 	int getProduct(const std::vector<int>& vec);
 }
+
+/*
+// 하위 모듈 사용
+// with MathModule1, 2.ixx
+
+export module math;
+
+export import math.math1;
+export import math.math2;
+//*/
