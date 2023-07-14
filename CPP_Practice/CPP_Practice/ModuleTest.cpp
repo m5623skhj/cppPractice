@@ -7,5 +7,5 @@ import math;
 
 int main()
 {
-	add(2000, 20);
+	math::add(2000, 20);
 }

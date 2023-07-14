@@ -128,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConceptTest.cpp" />
+    <ClCompile Include="ConceptTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Math.cpp" />
     <ClCompile Include="Math.ixx" />
     <ClCompile Include="ModuleTest.cpp" />
   </ItemGroup>

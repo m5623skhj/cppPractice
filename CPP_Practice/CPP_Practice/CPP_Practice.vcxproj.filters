@@ -27,5 +27,8 @@
     <ClCompile Include="Math.ixx">
       <Filter>소스 파일\module</Filter>
     </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
