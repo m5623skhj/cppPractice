@@ -133,6 +133,12 @@
     </ClCompile>
     <ClCompile Include="Math.cpp" />
     <ClCompile Include="Math.ixx" />
+    <ClCompile Include="MathModule1.ixx" />
+    <ClCompile Include="MathModule2.ixx" />
+    <ClCompile Include="MathModuleTemplate.ixx" />
+    <ClCompile Include="mathPartition.ixx" />
+    <ClCompile Include="MathPartition1.ixx" />
+    <ClCompile Include="MathPartition2.ixx" />
     <ClCompile Include="ModuleTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

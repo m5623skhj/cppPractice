@@ -16,11 +16,11 @@
     <Filter Include="소스 파일\module">
       <UniqueIdentifier>{3b34be60-d6d0-4d1a-a73f-5e20de1046ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\concept">
+      <UniqueIdentifier>{ddb959a9-0191-43ba-8185-3bb22841c7dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConceptTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ModuleTest.cpp">
       <Filter>소스 파일\module</Filter>
     </ClCompile>
@@ -29,6 +29,27 @@
     </ClCompile>
     <ClCompile Include="Math.cpp">
       <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="MathModule1.ixx">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="MathModule2.ixx">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="MathPartition1.ixx">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="MathPartition2.ixx">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="ConceptTest.cpp">
+      <Filter>소스 파일\concept</Filter>
+    </ClCompile>
+    <ClCompile Include="mathPartition.ixx">
+      <Filter>소스 파일\module</Filter>
+    </ClCompile>
+    <ClCompile Include="MathModuleTemplate.ixx">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
