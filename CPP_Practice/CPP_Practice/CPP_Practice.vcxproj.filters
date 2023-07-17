@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\spaceshipOperator">
       <UniqueIdentifier>{bb9fd686-c656-4c09-9681-718a90c3fd19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\template">
+      <UniqueIdentifier>{5f0df73e-6bac-4968-9778-2e3036925518}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -59,6 +62,12 @@
     </ClCompile>
     <ClCompile Include="StrongWeakPartial.cpp">
       <Filter>소스 파일\spaceshipOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="VariantWrapper.h">
+      <Filter>소스 파일\template</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplicitExplicitGenericConstructor.cpp">
+      <Filter>소스 파일\template</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
