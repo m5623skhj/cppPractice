@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\template">
       <UniqueIdentifier>{5f0df73e-6bac-4968-9778-2e3036925518}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\lambda">
+      <UniqueIdentifier>{4bdd329d-b675-413d-a6df-18bbf3e4d6b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="ImplicitExplicitGenericConstructor.cpp">
       <Filter>소스 파일\template</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateLambda.cpp">
+      <Filter>소스 파일\lambda</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

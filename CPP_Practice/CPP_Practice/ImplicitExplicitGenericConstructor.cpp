@@ -22,6 +22,7 @@ struct Explicit
 struct MyBool
 {
 	template<typename T>
+	// Á¶°ÇºÎ explicit
 	explicit(std::is_same<T, bool>::value == false) MyBool(T t)
 	{
 		std::cout << typeid(t).name() << std::endl;
