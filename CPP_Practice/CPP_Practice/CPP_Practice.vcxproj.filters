@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\lambda">
       <UniqueIdentifier>{4bdd329d-b675-413d-a6df-18bbf3e4d6b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\etc">
+      <UniqueIdentifier>{c32374e3-4879-4f7a-8c4a-6b21154a6ab8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -74,6 +77,15 @@
     </ClCompile>
     <ClCompile Include="TemplateLambda.cpp">
       <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="rangeBaseForLoopInit.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="enumUsing.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="BitField.cpp">
+      <Filter>소스 파일\etc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
