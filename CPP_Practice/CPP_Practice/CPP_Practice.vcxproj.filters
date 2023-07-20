@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\etc">
       <UniqueIdentifier>{c32374e3-4879-4f7a-8c4a-6b21154a6ab8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\range">
+      <UniqueIdentifier>{c3cecedf-bd95-4021-90de-fe9aaddc5016}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -86,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="BitField.cpp">
       <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
+      <Filter>소스 파일\range</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
