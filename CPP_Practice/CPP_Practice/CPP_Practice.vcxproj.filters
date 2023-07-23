@@ -93,5 +93,8 @@
     <ClCompile Include="range.cpp">
       <Filter>소스 파일\range</Filter>
     </ClCompile>
+    <ClCompile Include="span.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
