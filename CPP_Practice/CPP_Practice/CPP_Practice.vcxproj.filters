@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\range">
       <UniqueIdentifier>{c3cecedf-bd95-4021-90de-fe9aaddc5016}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\coroutine">
+      <UniqueIdentifier>{4b207424-bce0-4a25-825a-785bbf8034bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -95,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="span.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="coroutine.cpp">
+      <Filter>소스 파일\coroutine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
