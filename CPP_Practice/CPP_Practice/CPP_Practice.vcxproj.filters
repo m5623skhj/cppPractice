@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\coroutine">
       <UniqueIdentifier>{4b207424-bce0-4a25-825a-785bbf8034bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\not_C++20">
+      <UniqueIdentifier>{331b82da-814e-45f7-bbf9-25b67f648e24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -101,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="coroutine.cpp">
       <Filter>소스 파일\coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_cast.cpp">
+      <Filter>소스 파일\not_C++20</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
