@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\coroutine">
       <UniqueIdentifier>{4b207424-bce0-4a25-825a-785bbf8034bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SFINAE">
+      <UniqueIdentifier>{f2e5b981-bc7a-4b6b-99fb-046e9ce06d7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -101,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="coroutine.cpp">
       <Filter>소스 파일\coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="SFINAE.cpp">
+      <Filter>소스 파일\SFINAE</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
