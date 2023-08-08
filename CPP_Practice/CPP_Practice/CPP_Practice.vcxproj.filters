@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\not_C++20">
       <UniqueIdentifier>{331b82da-814e-45f7-bbf9-25b67f648e24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\span">
+      <UniqueIdentifier>{bce497e9-5b39-4a30-b4ca-9c3b28388e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\atomic">
+      <UniqueIdentifier>{52235c33-e87c-4ccf-ab44-44c4a71fa8a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -99,9 +105,6 @@
     <ClCompile Include="range.cpp">
       <Filter>소스 파일\range</Filter>
     </ClCompile>
-    <ClCompile Include="span.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="coroutine.cpp">
       <Filter>소스 파일\coroutine</Filter>
     </ClCompile>
@@ -110,6 +113,24 @@
     </ClCompile>
     <ClCompile Include="virtual_private.cpp">
       <Filter>소스 파일\not_C++20</Filter>
+    </ClCompile>
+    <ClCompile Include="SFINAE.cpp">
+      <Filter>소스 파일\not_C++20</Filter>
+    </ClCompile>
+    <ClCompile Include="span.cpp">
+      <Filter>소스 파일\span</Filter>
+    </ClCompile>
+    <ClCompile Include="atomicref.cpp">
+      <Filter>소스 파일\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeSinglyLinkedList.h">
+      <Filter>소스 파일\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeSinglyLinkedListTest.cpp">
+      <Filter>소스 파일\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="AtomicFlag.cpp">
+      <Filter>소스 파일\atomic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
