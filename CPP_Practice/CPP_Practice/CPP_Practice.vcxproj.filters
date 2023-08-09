@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\semaphore">
       <UniqueIdentifier>{7a1dd21e-abc5-46a2-ae33-0f6a0db935a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\latchAndBarrier">
+      <UniqueIdentifier>{5ce8a211-e824-491e-98c7-f758bc3e562a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -137,6 +140,12 @@
     </ClCompile>
     <ClCompile Include="threadSyncBySemaphore.cpp">
       <Filter>소스 파일\semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="latch.cpp">
+      <Filter>소스 파일\latchAndBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="barrier.cpp">
+      <Filter>소스 파일\latchAndBarrier</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
