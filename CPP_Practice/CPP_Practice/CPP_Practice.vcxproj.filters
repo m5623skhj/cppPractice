@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\atomic">
       <UniqueIdentifier>{52235c33-e87c-4ccf-ab44-44c4a71fa8a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\semaphore">
+      <UniqueIdentifier>{7a1dd21e-abc5-46a2-ae33-0f6a0db935a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -131,6 +134,9 @@
     </ClCompile>
     <ClCompile Include="AtomicFlag.cpp">
       <Filter>소스 파일\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="threadSyncBySemaphore.cpp">
+      <Filter>소스 파일\semaphore</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
