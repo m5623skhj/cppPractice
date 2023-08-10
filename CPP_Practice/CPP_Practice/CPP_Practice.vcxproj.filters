@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\latchAndBarrier">
       <UniqueIdentifier>{5ce8a211-e824-491e-98c7-f758bc3e562a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\not_C++20\template">
+      <UniqueIdentifier>{6e1f9020-18e3-45ed-b096-4d7c28708fcf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -147,5 +150,22 @@
     <ClCompile Include="barrier.cpp">
       <Filter>소스 파일\latchAndBarrier</Filter>
     </ClCompile>
+    <ClCompile Include="foreach.cpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
+    <ClCompile Include="foreachInvoke.hpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
+    <ClCompile Include="foreachInvoke.cpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="foreach.hpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
+    <ClInclude Include="invoke.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
