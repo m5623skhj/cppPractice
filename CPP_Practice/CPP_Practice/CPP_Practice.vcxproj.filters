@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\not_C++20\template">
       <UniqueIdentifier>{6e1f9020-18e3-45ed-b096-4d7c28708fcf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\withJThread">
+      <UniqueIdentifier>{8c4d4de4-049e-4400-a927-5bf022d6abe0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -158,6 +161,15 @@
     </ClCompile>
     <ClCompile Include="foreachInvoke.cpp">
       <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
+    <ClCompile Include="invokeCallback.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="signalStopRequests.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="conditionVariableAny.cpp">
+      <Filter>소스 파일\withJThread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
