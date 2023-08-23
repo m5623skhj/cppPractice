@@ -171,6 +171,12 @@
     <ClCompile Include="conditionVariableAny.cpp">
       <Filter>소스 파일\withJThread</Filter>
     </ClCompile>
+    <ClCompile Include="interruptJThread.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="coutSynchronized.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
@@ -181,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="maxDefaultDecival.hpp">
       <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
