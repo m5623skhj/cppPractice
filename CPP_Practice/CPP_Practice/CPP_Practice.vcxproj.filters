@@ -177,6 +177,18 @@
     <ClCompile Include="coutSynchronized.cpp">
       <Filter>소스 파일\etc</Filter>
     </ClCompile>
+    <ClCompile Include="pingPongConditionVariable.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="pingPongAtomicFlag.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="pingPongAtomicBool.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="pingPongSemaphore.cpp">
+      <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
