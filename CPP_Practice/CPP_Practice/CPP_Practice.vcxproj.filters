@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\withJThread">
       <UniqueIdentifier>{8c4d4de4-049e-4400-a927-5bf022d6abe0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\future">
+      <UniqueIdentifier>{727f8c24-f5a2-43a2-8d11-b10f92699952}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -188,6 +191,12 @@
     </ClCompile>
     <ClCompile Include="pingPongSemaphore.cpp">
       <Filter>소스 파일\withJThread</Filter>
+    </ClCompile>
+    <ClCompile Include="eagerFutureWithComments.cpp">
+      <Filter>소스 파일\future</Filter>
+    </ClCompile>
+    <ClCompile Include="lazyFuture.cpp">
+      <Filter>소스 파일\future</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
