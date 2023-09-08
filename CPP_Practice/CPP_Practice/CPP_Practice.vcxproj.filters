@@ -198,6 +198,9 @@
     <ClCompile Include="lazyFuture.cpp">
       <Filter>소스 파일\future</Filter>
     </ClCompile>
+    <ClCompile Include="infiniteDataStreamComments.cpp">
+      <Filter>소스 파일\coroutine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
