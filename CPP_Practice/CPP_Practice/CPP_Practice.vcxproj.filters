@@ -201,6 +201,15 @@
     <ClCompile Include="infiniteDataStreamComments.cpp">
       <Filter>소스 파일\coroutine</Filter>
     </ClCompile>
+    <ClCompile Include="parameterRefence.cpp">
+      <Filter>소스 파일\template</Filter>
+    </ClCompile>
+    <ClCompile Include="refError.cpp">
+      <Filter>소스 파일\template</Filter>
+    </ClCompile>
+    <ClCompile Include="refError2.cpp">
+      <Filter>소스 파일\template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
