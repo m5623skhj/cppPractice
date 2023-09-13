@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\future">
       <UniqueIdentifier>{727f8c24-f5a2-43a2-8d11-b10f92699952}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\not_C++20\algorithm">
+      <UniqueIdentifier>{e366da46-5fe5-443d-81a1-889354f09266}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -200,6 +203,9 @@
     </ClCompile>
     <ClCompile Include="infiniteDataStreamComments.cpp">
       <Filter>소스 파일\coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
