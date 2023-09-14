@@ -204,8 +204,20 @@
     <ClCompile Include="infiniteDataStreamComments.cpp">
       <Filter>소스 파일\coroutine</Filter>
     </ClCompile>
-    <ClCompile Include="dfs.cpp">
-      <Filter>소스 파일\not_C++20\algorithm</Filter>
+    <ClCompile Include="DFSAndBFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="parameterRefence.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="refError.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="refError2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="delayEvaluation.cpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

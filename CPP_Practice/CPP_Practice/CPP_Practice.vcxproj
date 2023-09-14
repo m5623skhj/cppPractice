@@ -152,6 +152,7 @@
     <ClCompile Include="coutSynchronized.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="delayEvaluation.cpp" />
     <ClCompile Include="DFSAndBFS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -285,7 +286,9 @@
     </ClInclude>
     <ClInclude Include="Headers.h" />
     <ClInclude Include="invoke.hpp" />
-    <ClInclude Include="maxDefaultDecival.hpp" />
+    <ClInclude Include="maxDefaultDecival.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
