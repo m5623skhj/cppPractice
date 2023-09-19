@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\not_C++20\algorithm\Memoization">
       <UniqueIdentifier>{15cd1705-6793-450a-9bb5-a4dbdef181b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\not_C++20\algorithm\DFS">
+      <UniqueIdentifier>{3bad8c98-202f-4566-8e21-b60942500ec2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -230,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="Wildcard.cpp">
       <Filter>소스 파일\not_C++20\algorithm\Memoization</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>소스 파일\not_C++20\algorithm\DFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
