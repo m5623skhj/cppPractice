@@ -65,6 +65,38 @@ void BFS(int start)
     }
 }
 
+namespace DFS_Recursive
+{
+    vector<vector<int>> _graph;
+    vector<bool> visited;
+
+    void DFS_Recursive(int here)
+    {
+        visited[here] = true;
+
+        for (int i = 0; i < _graph[here].size(); ++i)
+        {
+            int there = _graph[here][i];
+            if (visited[there] == false)
+            {
+                DFS_Recursive(there);
+            }
+        }
+    }
+
+    void DFSAll()
+    {
+        visited = vector<bool>(_graph.size(), false);
+        for (int i = 0; i < _graph.size(); ++i)
+        {
+            if (visited[i] == false)
+            {
+                DFS_Recursive(i);
+            }
+        }
+    }
+}
+
 int main()
 {
     return 0;
