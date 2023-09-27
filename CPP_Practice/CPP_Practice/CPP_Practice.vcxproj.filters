@@ -254,5 +254,8 @@
     <ClInclude Include="Headers.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="ParameterPack.hpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
