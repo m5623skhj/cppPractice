@@ -257,5 +257,8 @@
     <ClInclude Include="ParameterPack.hpp">
       <Filter>소스 파일\not_C++20\template</Filter>
     </ClInclude>
+    <ClInclude Include="TemplateFriend.hpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
