@@ -12,7 +12,7 @@ class Tree
 template<typename T>
 class _temp
 {
-	// 클래시 형이 아니라면, 해당 선언을 무시
+	// 클래스 형이 아니라면, 해당 선언을 무시
 	friend T;
 };
 
