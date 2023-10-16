@@ -203,6 +203,7 @@
     <ClCompile Include="lazyFuture.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="LookupTest1.cpp" />
     <ClCompile Include="Math.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -303,6 +304,7 @@
     </ClInclude>
     <ClInclude Include="Headers.h" />
     <ClInclude Include="invoke.hpp" />
+    <ClInclude Include="LookupTest1.h" />
     <ClInclude Include="maxDefaultDecival.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>

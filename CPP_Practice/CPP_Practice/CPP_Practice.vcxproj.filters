@@ -240,6 +240,9 @@
     <ClCompile Include="implicit.cpp">
       <Filter>소스 파일\not_C++20\template</Filter>
     </ClCompile>
+    <ClCompile Include="LookupTest1.cpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
@@ -258,6 +261,9 @@
       <Filter>소스 파일\not_C++20\template</Filter>
     </ClInclude>
     <ClInclude Include="TemplateFriend.hpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
+    <ClInclude Include="LookupTest1.h">
       <Filter>소스 파일\not_C++20\template</Filter>
     </ClInclude>
   </ItemGroup>
