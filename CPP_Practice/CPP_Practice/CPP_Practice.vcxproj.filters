@@ -246,6 +246,9 @@
     <ClCompile Include="VirtualConstExpr.cpp">
       <Filter>소스 파일\etc</Filter>
     </ClCompile>
+    <ClCompile Include="UniversalReferenceTest.cpp">
+      <Filter>소스 파일\not_C++20\template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
