@@ -252,6 +252,9 @@
     <ClCompile Include="2DSubtotal.cpp">
       <Filter>소스 파일\not_C++20\algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="SlidingWindow_dna.cpp">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
@@ -274,6 +277,9 @@
     </ClInclude>
     <ClInclude Include="LookupTest1.h">
       <Filter>소스 파일\not_C++20\template</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmBase.h">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
