@@ -255,6 +255,15 @@
     <ClCompile Include="SlidingWindow_dna.cpp">
       <Filter>소스 파일\not_C++20\algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="AlgorithmMain.cpp">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmTest.h">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmTest.cpp">
+      <Filter>소스 파일\not_C++20\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foreach.hpp">
