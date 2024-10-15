@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\not_C++20\algorithm\DFS">
       <UniqueIdentifier>{3bad8c98-202f-4566-8e21-b60942500ec2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\not_C++20\C++Test">
+      <UniqueIdentifier>{5f4fd9cb-92f9-4112-b605-e764bc9eb9f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleTest.cpp">
@@ -266,6 +269,9 @@
     </ClCompile>
     <ClCompile Include="IteratorTest.cpp">
       <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="if_init.cpp">
+      <Filter>소스 파일\not_C++20\C++Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
